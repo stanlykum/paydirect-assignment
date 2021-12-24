@@ -75,6 +75,8 @@ Alternatively, you can start the application from the current source files using
 GET http://localhost:8080/pokemon/mewtwo
 httpie http://localhost:8080/pokemon/mewtwo
 ```
+![1](https://user-images.githubusercontent.com/30554963/147368071-3bcc36f1-11e8-49f2-beac-cdf5725e6c2f.JPG)
+
 
 - Used to call Pokemon with fun description information
 
@@ -82,6 +84,8 @@ httpie http://localhost:8080/pokemon/mewtwo
 GET http://localhost:8080/pokemon/translated/mewtwo
 httpie http://localhost:8080/pokemon/translated/mewtwo
 ```
+![2](https://user-images.githubusercontent.com/30554963/147368077-ee4f3efd-e07e-4cf1-b6ec-5f8892a7ef1f.JPG)
+
 
 ## Swagger
 
@@ -90,6 +94,9 @@ API contract can be found on below link
 ```
 http://localhost:8080/swagger-ui.html
 ```
+![5](https://user-images.githubusercontent.com/30554963/147368045-741fc0f1-31fd-4265-bc61-e366c1c6ba0d.JPG)
+
+![6](https://user-images.githubusercontent.com/30554963/147368048-124ea640-3378-4588-8947-cb64fa6dddc6.JPG)
 
 ## Docker
 
@@ -105,4 +112,10 @@ Docker Run
 
 ```
 docker run -p 8080:8080 stanlyajeesh/stanly-docker:paydirect-pokedex
+```
+
+Docker Pull
+
+```
+docker pull stanlyajeesh/stanly-docker:paydirect-pokedex
 ```
