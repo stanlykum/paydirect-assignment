@@ -56,6 +56,11 @@ To clean up your environment use the following, it will delete any temporarily g
 ```bash
   ./gradlew clean
 ```
+**or**
+
+```bash
+  gradlew clean
+```
 
 ### Running
 
@@ -63,6 +68,22 @@ Alternatively, you can start the application from the current source files using
 
  ```
  ./gradlew clean bootRun
+ ```
+ **or**
+  ```
+ gradlew clean bootRun
+ ```
+ 
+ ### Running
+
+Testsuites can be run with below commands
+
+ ```
+ ./gradlew clean bootRun
+ ```
+ **or**
+ ```
+ gradlew clean test
  ```
 
 ## Endpoints
