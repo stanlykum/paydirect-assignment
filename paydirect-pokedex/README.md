@@ -50,6 +50,10 @@ To build the project execute the following command:
 ```bash
   ./gradlew build
 ```
+**or**
+```bash
+  gradlew build
+```
 
 To clean up your environment use the following, it will delete any temporarily generated files such as reports.
 
@@ -74,12 +78,12 @@ Alternatively, you can start the application from the current source files using
  gradlew clean bootRun
  ```
  
- ### Running
+ ### Testcase Running
 
-Testsuites can be run with below commands
+Testsuites can be run with below command.
 
  ```
- ./gradlew clean bootRun
+ ./gradlew clean test
  ```
  **or**
  ```
